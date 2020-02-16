@@ -9,5 +9,5 @@ public class GifsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GifsApplication.class, args);
 	}
-a
+
 }
