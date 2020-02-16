@@ -17,9 +17,9 @@ public class MainController {
         return "OK";
     }
 
-    @GetMapping("/shoegifsinbrowser")
+    @GetMapping("/showgifsinbrowser")
     @ResponseBody
-    public String showGifs(){
+    public String showGifs() {
         return gifRepository.getGifsNames();
 
     }

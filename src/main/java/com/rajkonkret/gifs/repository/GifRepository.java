@@ -23,6 +23,6 @@ public class GifRepository {
     }
 
     public String getGifsNames(){
-        return ALL_GIFS.stream().map(s -> s.getName()).collect(Collectors.joining(","));
+        return ALL_GIFS.stream().map(s -> s.getName()).collect(Collectors.joining(" , "));
     }
 }
